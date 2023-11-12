@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+html {
+  font-family: Inter;
+  font-style: oblique;
+  --scrollbarBG: #191919;
+  --thumbBG: #59C378;
+}
+
+.container-x {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.color{
+  color:#59C378
+}
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
