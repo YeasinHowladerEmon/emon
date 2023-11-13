@@ -6,8 +6,8 @@ const Advantage = () => {
         <div className="pb-[120px] overflow-hidden pt-[120px] relative bg-[#191919] lg:mb-0 md:mb-[0px] z-10">
             <div className="container-x xl:mx-auto lg:mx-5">
                 <div className="grid-rows-1 grid lg:grid-cols-2 md:grid-cols-1 items-center">
-                    <div className="relative z-10 md:max-w-[480px]">
-                        <div className="max-w-[350px] md:max-w-[350px] text-center rounded-[10px] pb-[180px] bg-gradient-to-b to-[#1B1B19] from-[#2E2C1F] xl:ml-[20px] md:ml-5">
+                    <div className="relative z-10 md:max-w-[480px]  ">
+                        <div className="max-w-[350px] md:max-w-[350px] text-center rounded-[10px] pb-[180px] bg-gradient-to-b to-[#1B1B19] from-[#2E2C1F] xl:ml-[20px] lg:ml-2 md:mx-auto mx-auto">
                             <h2 className="text-[140px] col:text-[90px] text-[#FFE600] font-bold base-font">
                                 02
                             </h2>
@@ -17,7 +17,7 @@ const Advantage = () => {
                             </span>
                         </div>
                         <div
-                            className="absolute right-[170px] lg:right-[80px] col:right-0  bottom-10 max-w-[300px] col:max-w-[350px] px-[20px] py-[20px] rounded-[12px] z-10 bg-transparent flex items-center justify-center 
+                            className="absolute md:right-[10px] lg:right-[80px] right-2  bottom-10 md:max-w-[300px] max-w-[350px] px-[20px] py-[20px] rounded-[12px] z-10 bg-transparent flex items-center justify-center 
                             before:absolute before:content before:left-0 before:top-0 before:w-full before:h-full before:opacity-[1] before:-z-20 before:rounded-[12px] before:bg-gradient-to-l to-[#939393] from-[#1c1a1a4d] 
                             after:absolute after:left-[2px] after:top-[2px] after:w-[98%] after:h-[98%] after:content after:bg-[#2D2B1F] after:opacity-[.85] after:-z-10 after:rounded-[12px]"
                         >
@@ -32,12 +32,12 @@ const Advantage = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="about-right z-20 md:mt-7">
-                        <div className="max-w-[670px] mx-auto text-left text-white mb-[60px] md:mb-[40px]">
-                            <h2 className="heading-font font-bold lg:text-5xl md:text-[35px] sm:text-[22px] mb-[20px]">
+                    <div className="about-right z-20 md:mt-7 lg:mx-0 md:mx-auto mx-3">
+                        <div className="max-w-[670px] mx-auto lg:text-left md:text-enter text-center text-white mb-[60px] md:mb-[40px]">
+                            <h2 className="heading-font font-bold lg:text-5xl md:text-[35px] text-[28px] mb-[20px] lg:mt-0 md:mt-0 mt-5">
                                 My Skill and Advantage
                             </h2>
-                            <p className="base-font text-lg font-normal">
+                            <p className="base-font lg:text-lg md:text-md text-sm font-normal ">
                                 Aspiring MERN Stack and Web Developer with a strong passion for
                                 coding and a solid foundation in modern web development
                                 technologies. Experienced in building efficient and
@@ -46,7 +46,7 @@ const Advantage = () => {
                                 tools.
                             </p>
                         </div>
-                        <ul className="flex flex-wrap mx-[-15px]">
+                        <ul className="flex flex-wrap lg:mx-[-15px] md:mx-0 mx-[0px] lg:justify-normal justify-center">
                             <li className="mx-[15px] rounded-[12px] mb-7 bg-gradient-to-t to-[#acac39] from-[#1f1e1c99] basis-[28.33%] lg:basis-[26%] col:basis-[40%]">
                                 <div className="rounded-[12px] bg-[#1F1E1D] mt-[3px] mr-[3px] ml-[3px] p-10 lg:p-[20px] text-center">
                                     <h3 className="font-bold text-[35px] text-white flex items-center justify-center">

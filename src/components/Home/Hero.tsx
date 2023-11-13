@@ -32,7 +32,7 @@ const Hero = () => {
                             <p className="text-white xl:text-[19px] lg:text-[16px] md:text-[19px]   font-normal lg:leading-[33px] mb-[30px] text-[15px] leading-[28px] lg:mx-0  md:mx-[80px] mx-0 font-mono">
                                 As a self-motivated and enthusiastic web developer, I am dedicated to leveraging my potential in the field of web development to contribute to company growth and success. My passion for learning is evident in my proactive approach to staying updated with the latest technologies and trends.</p>
                             <div className="slide-btn  w-[175px] lg:m-0 md:m-auto m-auto">
-                                <a href="" className="bg-[#59c378]  text-white border-0 rounded-[40px]  font-[600] text-[14px] flex lg:text-[16px] lg:px-[40px]  lg:pt-[15px] lg:pb-[15px] md:text-[14px]  md:pl-[25px] md:pr-[20px] md:pb-[10px] md:pt-[12px] pb-[10px] pt-[10px] justify-center">
+                                <a href="/src/components/Home/Contact.tsx" className="bg-[#59c378]  text-white border-0 rounded-[40px]  font-[600] text-[14px] flex lg:text-[16px] lg:px-[40px]  lg:pt-[15px] lg:pb-[15px] md:text-[14px]  md:pl-[25px] md:pr-[20px] md:pb-[10px] md:pt-[12px] pb-[10px] pt-[10px] justify-center">
                                     <span className="">Hire Me</span>
                                     <div className="ml-2">
                                         <svg

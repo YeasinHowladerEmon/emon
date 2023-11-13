@@ -15,21 +15,21 @@ const Modal = ({ isOpen, setIsOpen, selectedProject }: BooleanCase) => {
     return (
         <div className={`modal ${isOpen ? "" : "opacity-0 pointer-events-none"} fixed overflow-hidden w-full h-full top-0 left-0 flex items-center justify-center z-[99]`}>
             <div onClick={() => setIsOpen(false)} className=" absolute w-full h-full bg-gray-900 opacity-70"></div>
-            <div className=" bg-white w-[60%] h-[70%]  rounded shadow-lg z-50 overflow-y-auto">
+            <div className=" bg-white lg:w-[60%] md:w-[75%] w-[90%] h-[70%]  rounded shadow-lg z-50 overflow-y-auto">
                 <div className="absolute top-0 right-0 cursor-pointer flex flex-col items-center mt-[7rem] mr-[2rem] text-white text-[35px] z-50" onClick={() => setIsOpen(false)}>
                     <AiOutlineClose className='text-white' />
                     <span className="text-lg text-white">(Esc)</span>
                 </div>
-                <div className="modal-content py-4 text-left px-6">
-                    <div className="p-5">
+                <div className="modal-content lg:py-4 md:py-4 py-2 text-left lg:px-6 md:px-6 px-2">
+                    <div className="p-2 lg:p-5 md:p-5 ">
                         <div>
                             <img src={selectedProject?.img} alt="" />
                         </div>
-                        <div className="grid grid-cols-3">
+                        <div className="grid lg:grid-cols-3 grid-cols-1 ">
                             <div className="pt-2 col-span-2 ">
-                                <h3 className="text-[#6f6b80] text-[24px] font-semibold mb-2">Details</h3>
-                                <h1 className="text-black text-[35px] font-semibold ">{selectedProject?.title}</h1>
-                                <p className="text-black  mt-2 mr-10 text-[17px] leading-1 ">{selectedProject?.description}</p>
+                                <h3 className="text-[#6f6b80] lg:text-[24px] md:text-[24px] text-[18px] font-semibold mb-2">Details</h3>
+                                <h1 className="text-black text-[24px] lg:text-[35px] md:text-[35px] font-semibold ">{selectedProject?.title}</h1>
+                                <p className="text-black  mt-2 mr-10 lg:text-[17px] md:text-[17px] text-[14px] leading-1 ">{selectedProject?.description}</p>
                             </div>
                             <div className="mt-10 col-span-1 ">
                                 <h2 className="text-2xl text-black mb-2 font-semibold">Technology</h2>

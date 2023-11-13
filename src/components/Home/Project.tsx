@@ -64,14 +64,14 @@ const Project = () => {
             <div className="container-x">
                 <div className="lg:flex block grid-cols-2 items-center mb-[40px] xl:mx-0 lg:mx-5">
                     <div className="lg:m-0 lg:text-left text-center md:m-auto  md:mb-[40px] text-white">
-                        <h2 className="heading-font font-bold lg:text-5xl md:text-[35px] sm:text-[22px] mb-[1px]">Look At My Projects</h2>
+                        <h2 className="heading-font font-bold lg:text-5xl md:text-[35px] text-[28px] lg:mb-[1px] md:mb-10 mb-16">Look At My Projects</h2>
                     </div>
-                    <div className='w-[130px] h-[130px] lg:mr-0 rounded-full text-center text-[55px] leading-[130px] bg-[#303030] relative before:absolute before:left-[-10px] before:top-[-10px] before:w-[150px] before:decoration-dashed before:z-10 before:h-[150px] before:border before:border-[#383838] before::content before:rounded-full md:mx-auto lg:py-0 md:py-2'>
+                    <div className='w-[130px] h-[130px] lg:mr-0 rounded-full text-center text-[55px] leading-[130px] bg-[#303030] relative before:absolute before:left-[-10px] before:top-[-10px] before:w-[150px] before:decoration-dashed before:z-10 before:h-[150px] before:border before:border-[#383838] before::content before:rounded-full md:mx-auto lg:ml-auto mx-auto  lg:py-0 md:py-2 py-8'>
                         <GiHumanCannonball className='text-[55px] text-[#FFE600] lg:mt-[33px] md:mt-[25px] ml-[40px]' />
                     </div>
                 </div>
-                <div className="w-full h-auto clear-both grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 justify-items-center  mt-[65px] relative">{projects.map((e) => (
-                    <div className='w-[390px] mr-[45px] group ' key={e.id} onClick={() => { setIsOpen(true), setSelectedProject(e) }}>
+                <div className="w-full h-auto clear-both grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 grid-cols-1 justify-items-center  mt-[65px] relative">{projects.map((e) => (
+                    <div className='lg:w-[390px] md:w-[390px] w-[320px] lg:mr-[45px] lg:mb-0 md:mb-0 mb-6 md:mx-0 mx-0 group ' key={e.id} onClick={() => { setIsOpen(true), setSelectedProject(e) }}>
                         <div className="">
                             <div className="w-[100%] inline-block">
                                 <div className="overflow-hidden">

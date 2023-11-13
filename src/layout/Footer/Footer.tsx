@@ -22,34 +22,34 @@ const Footer = () => {
     return (
         <footer className="relative z-10 bg-[#131313] overflow-auto pb-[50px] ">
             <div className="container-x text-center">
-                <div className='mt-8 mb-10 ml-[32px]'>
+                <div className='flex flex-wrap mt-8 mb-10 ml-[32px] justify-center'>
                     <a
                         href="https://github.com/YeasinHowladerEmon"
-                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-10 hover:border hover:border-white hover:bg-white '
+                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-10 hover:border hover:border-white hover:bg-white lg:mb-0 md:mb-0 mb-4'
                         rel="noreferrer">
                         <FontAwesomeIcon className='text-[#59c378]   transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300 ' icon={faGithub} />
                     </a>
                     <a
                         href="https://www.linkedin.com/in/ariyanemon/"
-                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-10 hover:border hover:border-white hover:bg-white'
+                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-10 hover:border hover:border-white hover:bg-white lg:mb-0 md:mb-0 mb-4'
                         rel="noreferrer">
                         <FontAwesomeIcon className='text-[#59c378]  transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300 ' icon={faLinkedinIn} />
                     </a>
                     <a
                         href="https://twitter.com/Emon_Ibn_Salim"
-                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-10 hover:border hover:border-white hover:bg-white'
+                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-10 hover:border hover:border-white hover:bg-white lg:mb-0 md:mb-0 mb-4'
                         rel="noreferrer">
                         <FontAwesomeIcon className='text-[#59c378]  transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300 ' icon={faTwitter} />
                     </a>
                     <a
                         href="https://www.facebook.com/profile.php?id=100092198229264"
-                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-10 hover:border hover:border-white hover:bg-white'
+                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-10 hover:border hover:border-white hover:bg-white lg:mb-0 md:mb-0 mb-4'
                         rel="noreferrer">
                         <FontAwesomeIcon className='text-[#59c378]  transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300 ' icon={faFacebook} />
                     </a>
                     <a
                         href="https://mail.google.com/mail/?view=cm&fs=1&to=emonibnsalim@@gmail.com"
-                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-10 hover:border hover:border-white hover:bg-white'
+                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-10 hover:border hover:border-white hover:bg-white lg:mb-0 md:mb-0 mb-4'
                         rel="noreferrer">
                         <FontAwesomeIcon className='text-[#59c378]  transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300 ' icon={faEnvelope} />
                     </a>

@@ -31,11 +31,11 @@ const Contact = () => {
             <div className="container-x">
                 <div className="row">
                     <div className="max-w-[640px] mx-auto text-center text-white mb-[60px] md:mb-[40px]">
-                        <h2 className="heading-font font-bold lg:text-5xl md:text-[35px] sm:text-[22px] mb-[15px]">
+                        <h2 className="heading-font font-bold lg:text-5xl md:text-[35px] text-[28px] mb-[15px]">
                             Let's Talk
                         </h2>
                         -
-                        <p className="base-font text-lg font-normal">
+                        <p className="base-font lg:text-lg md:text-md text-sm font-normal">
                             I'd Love to hear from you. Whether you have a question or just
                             want to say Hi, feel free to drop a message. I'll try my best to
                             get back to you!
@@ -96,41 +96,41 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="lg:basis-[27%] basis-full ">
-                        <div className="w-max-[395px] pl-[20px]">
-                            <div className="bg-[#222121] border border-[#464646] rounded-[5px] mb-[30px] px-[40px] py-[33px] shadow-[#323232]">
-                                <h2 className='text-white text-[24px] font-[600] mb-[15px] mt-0'>South Manda, Dhaka - 1214</h2>
+                        <div className="w-max-[395px] lg:pl-[20px] md:pl-0 pl-0">
+                            <div className="bg-[#222121] border border-[#464646] rounded-[5px] lg:mb-[30px] lg:px-[40px] lg:py-[33px] md:mb-[30px] md:px-[30px] md:py-[23px] mb-10 py-8  shadow-[#323232]">
+                                <h2 className='text-white lg:text-[24px] md:text-[22px] font-[600] mb-[15px] mt-0'>South Manda, Dhaka - 1214</h2>
                                 <div className="items-center flex">
-                                    <div className="bg-[#2e2e2e] rounded-[50%] shadow-sm shadow-[#323232] h-[90px] mr-[20px] w-[90px] ">
-                                        <MdOutlineLocationOn className='text-[#ffe600] text-[50px] m-[20px] text-center leading-[90px] ' />
+                                    <div className="bg-[#2e2e2e] rounded-[50%] shadow-sm shadow-[#323232] h-[70px] lg:h-[90px] mr-[20px] w-[70px] lg:w-[90px] md:w-[80px] md:h-[80px]">
+                                        <MdOutlineLocationOn className='text-[#ffe600] text-[40px] lg:text-[50px] md:text-[40px] lg:m-[20px] m-[14px] md:m-[20px] text-center leading-[90px] ' />
                                     </div>
                                     <div className="info-text">
-                                        <span className="text-[#d8d8d8] text-[18px] font-[300]">
+                                        <span className="text-[#d8d8d8] text-[16px] lg:text-[18px]  md:text-[18px] font-[300]">
                                             Home Address
                                         </span>
                                     </div>
                                 </div>
                             </div>
-                            <div className="bg-[#222121] border border-[#464646] rounded-[5px] mb-[30px] px-[40px] py-[33px] shadow-[#323232]">
-                                <h2 className='text-white text-[24px] font-[600] mb-[15px] mt-0'>emonibnsalim@gmail.com</h2>
+                            <div className="bg-[#222121] border border-[#464646] rounded-[5px] lg:mb-[30px] lg:px-[40px] lg:py-[33px] md:mb-[30px] md:px-[30px] md:py-[23px] mb-10 py-8 shadow-[#323232]">
+                                <h2 className='text-white text-[20px] lg:text-[24px] md:text-[22px] font-[600] mb-[15px] mt-0'>emonibnsalim@gmail.com</h2>
                                 <div className="items-center flex">
-                                    <div className="bg-[#2e2e2e] rounded-[50%] shadow-sm shadow-[#323232] h-[90px] mr-[20px] w-[90px] ">
-                                        <AiOutlineMail className='text-[#ffe600] text-[50px] m-[20px] text-center leading-[90px] ' />
+                                    <div className="bg-[#2e2e2e] rounded-[50%] shadow-sm shadow-[#323232] h-[70px] lg:h-[90px] mr-[20px] w-[70px] lg:w-[90px] md:w-[80px] md:h-[80px] ">
+                                        <AiOutlineMail className='text-[#ffe600] text-[40px] lg:text-[50px] md:text-[40px] lg:m-[20px] m-[14px] md:m-[20px] text-center leading-[90px] ' />
                                     </div>
                                     <div className="info-text">
-                                        <span className="text-[#d8d8d8] text-[18px] font-[300]">
+                                        <span className="text-[#d8d8d8] text-[16px] lg:text-[18px]  md:text-[18px] font-[300]">
                                             Official Mail
                                         </span>
                                     </div>
                                 </div>
                             </div>
-                            <div className="bg-[#222121] border border-[#464646] rounded-[5px] mb-[30px] px-[40px] py-[33px] shadow-[#323232]">
-                                <h2 className='text-white text-[24px] font-[600] mb-[15px] mt-0'>+8801903245299</h2>
+                            <div className="bg-[#222121] border border-[#464646] rounded-[5px] lg:mb-[30px] lg:px-[40px] lg:py-[33px] md:mb-[30px] md:px-[30px] md:py-[23px] mb-10 py-8 shadow-[#323232]">
+                                <h2 className='text-white text-[20px] lg:text-[24px] md:text-[22px] font-[600] mb-[15px] mt-0'>+8801903245299</h2>
                                 <div className="items-center flex">
-                                    <div className="bg-[#2e2e2e] rounded-[50%] shadow-sm shadow-[#323232] h-[90px] mr-[20px] w-[90px] ">
-                                        <BiPhoneCall className='text-[#ffe600] text-[50px] m-[20px] text-center leading-[90px] ' />
+                                    <div className="bg-[#2e2e2e] rounded-[50%] shadow-sm shadow-[#323232] h-[70px] lg:h-[90px] mr-[20px] w-[70px] lg:w-[90px] md:w-[80px] md:h-[80px]">
+                                        <BiPhoneCall className='text-[#ffe600] text-[40px] lg:text-[50px] md:text-[40px] lg:m-[20px] m-[14px] md:m-[20px] text-center leading-[90px] ' />
                                     </div>
                                     <div className="info-text">
-                                        <span className="text-[#d8d8d8] text-[18px] font-[300]">
+                                        <span className="text-[#d8d8d8] text-[16px] lg:text-[18px]  md:text-[18px]  font-[300]">
                                             Official Number
                                         </span>
                                     </div>

@@ -52,13 +52,13 @@ const About = () => {
             <div className="container-x relative z-10">
                 <div className="">
                     <div className='grid-rows-1 grid lg:grid-cols-2 md:grid-cols-1 justify-center'>
-                        <div className='flex items-center lg:mb-0 md:mb-5'>
-                            <img src={me} alt={me} className='w-[80%] h-[100%] lg:m-0 md:m-auto' />
+                        <div className='flex items-center lg:mb-0 md:mb-5 mb-5'>
+                            <img src={me} alt={me} className='w-[80%] h-[100%] lg:m-0 md:m-auto m-auto' />
                         </div>
-                        <div className='flex items-center lg:mx-0 md:mx-5'>
+                        <div className='flex items-center lg:mx-0 md:mx-5 mx-2 '>
                             <div>
-                                <h1 className='heading-font font-bold text-white lg:text-5xl md:text-[35px] sm:text-[22px] mb-[15px]'>About Me</h1>
-                                <p className="base-font text-lg font-normal text-white">
+                                <h1 className='heading-font font-bold text-white lg:text-5xl md:text-[35px] text-[28px] mb-[15px]'>About Me</h1>
+                                <p className="base-font lg:text-lg md:text-md text-sm font-normal text-white">
                                     I am a MERN-Stack WEB Developer. I am working with React, Node.js and MongoDB.
                                     I also have experience in developing static websites using HTML5, CSS3 and JavaScript (ES6).
                                     I am a quick learner. I believe in hard work and efficiency. That's why I am always ready to accomplish any task by working hard. I always focus on learning new technology.
@@ -99,34 +99,34 @@ const About = () => {
                                         <li className='mr-2'><FontAwesomeIcon className='text-[#59c378]' icon={faGenderless} /> Vercel</li>
                                     </ul>
                                 </div>
-                                <div className='mt-8 '>
+                                <div className='flex flex-wrap mt-8 lg:mx-0 md:mx-48 mx-10 '>
                                     <Link
                                         to="https://github.com/YeasinHowladerEmon"
-                                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-6 hover:border hover:border-white hover:bg-white '
+                                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-2 lg:mr-6 md:mr-6  hover:border hover:border-white hover:bg-white lg:mb-0 md:mb-0 mb-4'
                                         rel="noreferrer">
                                         <FontAwesomeIcon className='text-[#59c378]   transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300 ' icon={faGithub} />
                                     </Link>
                                     <Link
                                         to="https://www.linkedin.com/in/ariyanemon/"
-                                        target="_blank" className='border px-3 py-2 poi  border-[#59c378] mr-6 hover:border hover:border-white hover:bg-white'
+                                        target="_blank" className='border px-3 py-2 poi  border-[#59c378] mr-2 lg:mr-6 md:mr-6 hover:border hover:border-white hover:bg-white lg:mb-0 md:mb-0 mb-4'
                                         rel="noreferrer">
                                         <FontAwesomeIcon className='text-[#59c378]  transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300 ' icon={faLinkedinIn} />
                                     </Link>
                                     <Link
                                         to="https://twitter.com/Emon_Ibn_Salim"
-                                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-6 hover:border hover:border-white hover:bg-white'
+                                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-2 lg:mr-6 md:mr-6 hover:border hover:border-white hover:bg-white lg:mb-0 md:mb-0 mb-4'
                                         rel="noreferrer">
                                         <FontAwesomeIcon className='text-[#59c378]  transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300 ' icon={faTwitter} />
                                     </Link>
                                     <Link
                                         to="https://www.facebook.com/profile.php?id=100092198229264"
-                                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-6 hover:border hover:border-white hover:bg-white'
+                                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-2 lg:mr-6 md:mr-6 hover:border hover:border-white hover:bg-white lg:mb-0 md:mb-0 mb-4'
                                         rel="noreferrer">
                                         <FontAwesomeIcon className='text-[#59c378]  transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300 ' icon={faFacebook} />
                                     </Link>
                                     <Link
                                         to="https://mail.google.com/mail/?view=cm&fs=1&to=emonibnsalim@@gmail.com"
-                                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-6 hover:border hover:border-white hover:bg-white'
+                                        target="_blank" className='border px-3 py-2  border-[#59c378] mr-2 lg:mr-6 md:mr-6 hover:border hover:border-white hover:bg-white lg:mb-0 md:mb-0 mb-4'
                                         rel="noreferrer">
                                         <FontAwesomeIcon className='text-[#59c378]  transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300 ' icon={faEnvelope} />
                                     </Link>
