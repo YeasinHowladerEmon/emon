@@ -8,7 +8,7 @@ import line1 from '../../assets/line-1.d03426237aa137b47141.png'
 import line2 from '../../assets/line-2.326f98abce9f428d7f46.png'
 const Hero = () => {
     return (
-        <section className="static-hero bg-[#131313]  xl:h-[900px] lg:h-[850px] md:h-[1000px] h-[890px]  relative z-10 overflow-hidden">
+        <section id='home' className="static-hero bg-[#131313]  xl:h-[900px] lg:h-[850px] md:h-[1000px] h-[890px]  relative z-10 overflow-hidden">
             <div className="flex items-start justify-center md:justify-start lg:pt-[250px] md:pt-[200px] md:pb-[100px] pt-[200px] pb-[100px] flex-col w-full h-full bg-cover bg-center text-left z-50">
                 <div className=" container-x">
                     <div className="grid lg:grid-cols-3 grid-cols-1 xl:mx-2 lg:mx-10 ">
@@ -32,7 +32,7 @@ const Hero = () => {
                             <p className="text-white xl:text-[19px] lg:text-[16px] md:text-[19px]   font-normal lg:leading-[33px] mb-[30px] text-[15px] leading-[28px] lg:mx-0  md:mx-[80px] mx-0 font-mono">
                                 As a self-motivated and enthusiastic web developer, I am dedicated to leveraging my potential in the field of web development to contribute to company growth and success. My passion for learning is evident in my proactive approach to staying updated with the latest technologies and trends.</p>
                             <div className="slide-btn  w-[175px] lg:m-0 md:m-auto m-auto">
-                                <a href="/src/components/Home/Contact.tsx" className="bg-[#59c378]  text-white border-0 rounded-[40px]  font-[600] text-[14px] flex lg:text-[16px] lg:px-[40px]  lg:pt-[15px] lg:pb-[15px] md:text-[14px]  md:pl-[25px] md:pr-[20px] md:pb-[10px] md:pt-[12px] pb-[10px] pt-[10px] justify-center">
+                                <a href="#contact" className="bg-[#59c378]  text-white border-0 rounded-[40px]  font-[600] text-[14px] flex lg:text-[16px] lg:px-[40px]  lg:pt-[15px] lg:pb-[15px] md:text-[14px]  md:pl-[25px] md:pr-[20px] md:pb-[10px] md:pt-[12px] pb-[10px] pt-[10px] justify-center">
                                     <span className="">Hire Me</span>
                                     <div className="ml-2">
                                         <svg
@@ -53,7 +53,7 @@ const Hero = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="lg:col-span-2 relative lg:top-[-7%] top-[10%] rounded-[50%] lg:left-[30%] left-[25%] z-10">
+                        <div  className="lg:col-span-2 relative lg:top-[-7%] top-[10%] rounded-[50%] lg:left-[30%] left-[25%] z-10">
                             <img src={emon} alt={emon} className="lg:w-[70%] lg:h-[85%] md:w-[50%] w-[60%] h-[85%] rounded-[50%]" />
                             <div className="absolute xl:-left-0 xl:top-[12%] xl:w-[110px] xl:h-[110px] xl:p-[20px] border  xl:rounded-[25px] lg:-left-2 lg:top-[12%] lg:w-[100px] lg:h-[100px] lg:p-[20px] lg:rounded-[25px] md:top-[25px] md:w-[95px] md:h-[95px] md:p-[15px] md:rounded-[15px] -left-2 top-[5%] w-[60px] h-[70px] px-[7px] py-[10px] rounded-[15px] floating-item">
                                 <img src={js} alt={js} className='rounded-[0px] ' />

@@ -13,7 +13,7 @@ const nav = [
   {
       id: 1,
       title: 'Home',
-      link: 'home',
+      link: '',
   },
   {
       id: 2,
@@ -62,9 +62,9 @@ console.log(stick);
       {
         nav.map((ui, i) => (
           <li key={i} className="p-1 font-[650] text-white">
-            <Link to={ui.link} className="">
+            <a href={`#${ui.link}`} className="">
               {ui.title}
-            </Link>
+            </a>
           </li>
         ))
       }
@@ -97,6 +97,7 @@ console.log(stick);
           <div className="md:w-[280px] sm:w-[200px] col:w-[50px] lg:ml-0 md:ml-[40px] sm:ml-[40px] xs:ml-0">
             <Link
               to="/"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               className="lg:text-[40px] md:text-[30px]   font-bold flex items-center lg:justify-start md:justify-center text-white"
             >
               <img src={logo} alt="" className="rounded-[50%] lg:mr-[10px] md:mr-[10px] sm:m-0" />
@@ -108,7 +109,8 @@ console.log(stick);
               {navList}
             </div>
           </div>
-          <a className="bg-[#59c378] text-white border rounded-[40px] flex lg:text-[16px] md:text-[14px] text-[14px] font-[600] lg:pl-[35px] lg:pr-[35px] lg:pt-[15px] lg:pb-[15px] md:pl-[25px] md:pr-[20px] md:pb-[10px] md:pt-[12px] pb-[10px] pt-[10px] pr-[10px] pl-[10px] mr-[-18px] lg:mr-0 md:mr-0">
+          
+          <a href="https://drive.google.com/file/d/1DKAX7A8HkfhtWpaVNAi44hQ5bq_Zxu_Z/view?usp=sharing" target="_blank" rel="noopener noreferrer"  className="bg-[#59c378] text-white border rounded-[40px] flex lg:text-[16px] md:text-[14px] text-[14px] font-[600] lg:pl-[35px] lg:pr-[35px] lg:pt-[15px] lg:pb-[15px] md:pl-[25px] md:pr-[20px] md:pb-[10px] md:pt-[12px] pb-[10px] pt-[10px] pr-[10px] pl-[10px] mr-[-18px] lg:mr-0 md:mr-0">
             <span className="">Resume</span>
             <div className="ml-5">
               <svg

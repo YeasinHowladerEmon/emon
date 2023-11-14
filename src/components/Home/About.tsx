@@ -6,7 +6,7 @@ import me from '../../assets/emonAA.jpg';
 import shape2 from "../../assets/shape2.5401b75612d2af6041d5.png";
 const About = () => {
     return (
-        <div className="pb-[120px] pt-[170px] relative bg-[#191919] overflow-hidden z-10">
+        <div id='about' className="pb-[120px] pt-[170px] relative bg-[#191919] overflow-hidden z-10">
             <div className="absolute left-0 lg:top-[-70%] md:top-[-70%] top-[-40%] -z-10">
                 <svg className="fill-[#FFE500]" width="995" height="1495" viewBox="0 0 995 1495" fill="none"><g opacity="0.3" filter="url(#filter0_f_39_4268)"><circle cx="247.5" cy="747.5" r="247.5" fill="#FFE500"></circle></g><defs><filter id="filter0_f_39_4268" x="-500" y="0" width="1495" height="1495" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB"><feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood><feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend><feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_39_4267"></feGaussianBlur></filter></defs></svg>
             </div>
@@ -52,7 +52,7 @@ const About = () => {
             <div className="container-x relative z-10">
                 <div className="">
                     <div className='grid-rows-1 grid lg:grid-cols-2 md:grid-cols-1 justify-center'>
-                        <div className='flex items-center lg:mb-0 md:mb-5 mb-5'>
+                        <div   className='flex items-center lg:mb-0 md:mb-5 mb-5'>
                             <img src={me} alt={me} className='w-[80%] h-[100%] lg:m-0 md:m-auto m-auto' />
                         </div>
                         <div className='flex items-center lg:mx-0 md:mx-5 mx-2 '>

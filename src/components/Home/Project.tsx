@@ -60,9 +60,9 @@ const Project = () => {
     const [isOpen, setIsOpen] = useState<boolean>(false)
     // const [selectedProject, setSelectedProject] =  useState(null)
     return (
-        <div className="project-area relative bg-[#191919] pt-[120px]  overflow-hidden z-10 lg:pb-[160px] pb-[120px]">
+        <div id='project' className="project-area relative bg-[#191919] pt-[120px]  overflow-hidden z-10 lg:pb-[160px] pb-[120px]">
             <div className="container-x">
-                <div className="lg:flex block grid-cols-2 items-center mb-[40px] xl:mx-0 lg:mx-5">
+                <div  className="lg:flex block grid-cols-2 items-center mb-[40px] xl:mx-0 lg:mx-5">
                     <div className="lg:m-0 lg:text-left text-center md:m-auto  md:mb-[40px] text-white">
                         <h2 className="heading-font font-bold lg:text-5xl md:text-[35px] text-[28px] lg:mb-[1px] md:mb-10 mb-16">Look At My Projects</h2>
                     </div>
@@ -70,7 +70,7 @@ const Project = () => {
                         <GiHumanCannonball className='text-[55px] text-[#FFE600] lg:mt-[33px] md:mt-[25px] ml-[40px]' />
                     </div>
                 </div>
-                <div className="w-full h-auto clear-both grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 grid-cols-1 justify-items-center  mt-[65px] relative">{projects.map((e) => (
+                <div   className="w-full h-auto clear-both grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 grid-cols-1 justify-items-center  mt-[65px] relative">{projects.map((e) => (
                     <div className='lg:w-[390px] md:w-[390px] w-[320px] lg:mr-[45px] lg:mb-0 md:mb-0 mb-6 md:mx-0 mx-0 group ' key={e.id} onClick={() => { setIsOpen(true), setSelectedProject(e) }}>
                         <div className="">
                             <div className="w-[100%] inline-block">

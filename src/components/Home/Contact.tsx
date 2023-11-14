@@ -23,11 +23,10 @@ const Contact = () => {
                     return;
                 }
                 swal("Sorry!", "Something went wrong. Please try again later", "error");
-            }, (err) => swal("Sorry!", "Something went wrong. Please try again later", "error"))
-        reset(); // Reset the form after submission
+            }, (err) => { swal("Sorry!", "Something went wrong. Please try again later", "error"); console.log(err) })
     }
     return (
-        <div className="pb-[40px]  pt-[120px]  bg-[#191919] lg:mb-0  ">
+        <div id='contact' className="pb-[40px]  pt-[120px]  bg-[#191919] lg:mb-0  ">
             <div className="container-x">
                 <div className="row">
                     <div className="max-w-[640px] mx-auto text-center text-white mb-[60px] md:mb-[40px]">
@@ -43,7 +42,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="container-x flex flex-row flex-wrap justify-center">
-                    <div className="lg:basis-1/2 basis-full">
+                    <div  className="lg:basis-1/2 basis-full">
                         <div className="mb-[60px] bg-[#222121] border border-[#464646] rounded-[5px] shadow-sm shadow-[#323232] px-[65px] pt-[60px] pb-[30px]">
                             <h2 className="text-[30px] font-[600] text-center text-white mt-[28px] mb-[25px]">
                                 Get In Touch
@@ -96,7 +95,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="lg:basis-[27%] basis-full ">
-                        <div className="w-max-[395px] lg:pl-[20px] md:pl-0 pl-0">
+                        <div  className="w-max-[395px] lg:pl-[20px] md:pl-0 pl-0">
                             <div className="bg-[#222121] border border-[#464646] rounded-[5px] lg:mb-[30px] lg:px-[40px] lg:py-[33px] md:mb-[30px] md:px-[30px] md:py-[23px] mb-10 py-8  shadow-[#323232]">
                                 <h2 className='text-white lg:text-[24px] md:text-[22px] font-[600] mb-[15px] mt-0'>South Manda, Dhaka - 1214</h2>
                                 <div className="items-center flex">
@@ -110,7 +109,7 @@ const Contact = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="bg-[#222121] border border-[#464646] rounded-[5px] lg:mb-[30px] lg:px-[40px] lg:py-[33px] md:mb-[30px] md:px-[30px] md:py-[23px] mb-10 py-8 shadow-[#323232]">
+                            <div  className="bg-[#222121] border border-[#464646] rounded-[5px] lg:mb-[30px] lg:px-[40px] lg:py-[33px] md:mb-[30px] md:px-[30px] md:py-[23px] mb-10 py-8 shadow-[#323232]">
                                 <h2 className='text-white text-[20px] lg:text-[24px] md:text-[22px] font-[600] mb-[15px] mt-0'>emonibnsalim@gmail.com</h2>
                                 <div className="items-center flex">
                                     <div className="bg-[#2e2e2e] rounded-[50%] shadow-sm shadow-[#323232] h-[70px] lg:h-[90px] mr-[20px] w-[70px] lg:w-[90px] md:w-[80px] md:h-[80px] ">
@@ -123,7 +122,7 @@ const Contact = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="bg-[#222121] border border-[#464646] rounded-[5px] lg:mb-[30px] lg:px-[40px] lg:py-[33px] md:mb-[30px] md:px-[30px] md:py-[23px] mb-10 py-8 shadow-[#323232]">
+                            <div  className="bg-[#222121] border border-[#464646] rounded-[5px] lg:mb-[30px] lg:px-[40px] lg:py-[33px] md:mb-[30px] md:px-[30px] md:py-[23px] mb-10 py-8 shadow-[#323232]">
                                 <h2 className='text-white text-[20px] lg:text-[24px] md:text-[22px] font-[600] mb-[15px] mt-0'>+8801903245299</h2>
                                 <div className="items-center flex">
                                     <div className="bg-[#2e2e2e] rounded-[50%] shadow-sm shadow-[#323232] h-[70px] lg:h-[90px] mr-[20px] w-[70px] lg:w-[90px] md:w-[80px] md:h-[80px]">

@@ -6,7 +6,7 @@ const Advantage = () => {
         <div className="pb-[120px] overflow-hidden pt-[120px] relative bg-[#191919] lg:mb-0 md:mb-[0px] z-10">
             <div className="container-x xl:mx-auto lg:mx-5">
                 <div className="grid-rows-1 grid lg:grid-cols-2 md:grid-cols-1 items-center">
-                    <div className="relative z-10 md:max-w-[480px]  ">
+                    <div  className="relative z-10 md:max-w-[480px]  ">
                         <div className="max-w-[350px] md:max-w-[350px] text-center rounded-[10px] pb-[180px] bg-gradient-to-b to-[#1B1B19] from-[#2E2C1F] xl:ml-[20px] lg:ml-2 md:mx-auto mx-auto">
                             <h2 className="text-[140px] col:text-[90px] text-[#FFE600] font-bold base-font">
                                 02
@@ -32,7 +32,7 @@ const Advantage = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="about-right z-20 md:mt-7 lg:mx-0 md:mx-auto mx-3">
+                    <div  className="about-right z-20 md:mt-7 lg:mx-0 md:mx-auto mx-3">
                         <div className="max-w-[670px] mx-auto lg:text-left md:text-enter text-center text-white mb-[60px] md:mb-[40px]">
                             <h2 className="heading-font font-bold lg:text-5xl md:text-[35px] text-[28px] mb-[20px] lg:mt-0 md:mt-0 mt-5">
                                 My Skill and Advantage

@@ -5,9 +5,9 @@ import './App.css'
 const MainLayout = lazy(() => import('./layout/MainLayout'))
 import AnimatedCursor from "react-animated-cursor"
 import Preloader from './components/Home/Preloader'
-// import useDisableConsole from './hook/useDisableConsole'
+import useDisableConsole from './hook/useDisableConsole'
 function App() {
-  // useDisableConsole()
+  useDisableConsole()
 
   return (
     <Suspense fallback={<Preloader />}>
